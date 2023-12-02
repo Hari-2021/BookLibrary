@@ -15,7 +15,7 @@ function addBook() {
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
 
-    cell1.innerHTML = bookName;
+    cell1.innerHTML = '<b>bookName</b>';
     cell2.innerHTML = 'by ' + author + ',' + 'Year ' + publicationYear;
     cell3.innerHTML = '<button class="btn btn-danger" onclick="removeBook(this)">Remove</button>';
 
